@@ -72,4 +72,4 @@ jobs:
 
       - name: Mecha lint
         run: |
-         pip install mecha > install.log & rm -rf install.log && mecha .
+         pip install mecha && mecha .
